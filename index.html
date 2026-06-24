@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/base.css" />
+    <link rel="stylesheet" href="/styles/font.css" />
+    <link rel="stylesheet" href="/styles/button.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/project.css" />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="icon" type="image/x-icon" href="/imgs/icon.png" />
+    <title>Osborn | Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="underline-btn active" href="#home">Osborn</a></li>
+          <li><a class="underline-btn" href="#projects">Projects</a></li>
+          <li><a class="underline-btn" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1 class="hero-title">
+          <b>></b>
+          <span data-type-text='[["bold", "Osborn"], "Developer()", "Student"]'>
+          </span>
+        </h1>
+        <div class="about">
+          <div class="info">
+            <div data-paragraph-slider>
+              <div class="slider-container">
+                <p>
+                  The best part of programming is sparking wonder. I enjoy niche
+                  ideas that are universally recognizable. Through the
+                  development process I aim for results that captivate. For
+                  inspiring ends.
+                </p>
+                <p>
+                  The bulk of my work is done with Java, although I have
+                  projects in C, C++, along with webdev. With this, I have
+                  experience with compilers, client-server apps, and computer
+                  graphics. I am a team player and willing to learn the role. I
+                  welcome a conversation together if it interests you!
+                </p>
+              </div>
+              <div class="slider-interface">
+                <div class="slider-controls">
+                  <button
+                    class="arrow arrow-left faded"
+                    data-paragraph-slider-back
+                  >
+                    <span class="arrow-head-left"></span>
+                    <span class="arrow-head-right"></span>
+                    <span class="arrow-main"></span>
+                  </button>
+                  <button class="arrow" data-paragraph-slider-forward>
+                    <span class="arrow-head-left"></span>
+                    <span class="arrow-head-right"></span>
+                    <span class="arrow-main"></span>
+                  </button>
+                </div>
+                <div
+                  class="meter"
+                  data-meter-curr="1"
+                  data-meter-start="1"
+                  data-meter-end="2"
+                >
+                  <b class="meter-count" data-meter-count>1</b>
+                  <div class="bar-container">
+                    <span class="bar" data-meter-bar></span>
+                  </div>
+                  <span class="meter-count">2</span>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="colored-btn pink cta">
+              <span class="colored-btn-text">Request CV</span>
+              <button class="arrow arrow-left pink">
+                <span class="arrow-head-left"></span>
+                <span class="arrow-head-right"></span>
+                <span class="arrow-main"></span>
+              </button>
+            </a>
+          </div>
+          <div class="cred">
+            <ul>
+              <li class="marker blue">Computer Science B.S.</li>
+              <li class="marker green">Applied Mathematics B.S.</li>
+              <li class="marker orange">Java SE 17 Developer (OCP)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="card-container"></div>
+      </section>
+      <section id="contact">
+        <div class="contact-links">
+          <ul>
+            <li>
+              <button class="colored-btn orange" data-copy-text>
+                <span class="colored-btn-text">
+                  contact.osborn.dev@gmail.com
+                </span>
+                <div class="arrow arrow-left orange">
+                  <span class="arrow-head-left"></span>
+                  <span class="arrow-head-right"></span>
+                  <span class="arrow-main"></span>
+                </div>
+              </button>
+            </li>
+            <li>
+              <a
+                href="https://github.com/og785838-hash"
+                class="colored-btn green"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="colored-btn-text">Github</span>
+                <button class="arrow green">
+                  <span class="arrow-head-left"></span>
+                  <span class="arrow-head-right"></span>
+                  <span class="arrow-main"></span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form-wrapper" data-form-wrapper>
+          <button class="arrow arrow-left faded" data-form-back>
+            <span class="arrow-head-left"></span>
+            <span class="arrow-head-right"></span>
+            <span class="arrow-main"></span>
+          </button>
+          <form
+            action="https://formspree.io/f/mgojornl"
+            method="post"
+            autocomplete="off"
+          >
+            <ol class="contact-inputs">
+              <li class="input-wrapper" data-form-input-container>
+                <div class="input-container">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    maxlength="50"
+                    required
+                  />
+                </div>
+              </li>
+              <li class="input-wrapper" data-form-input-container>
+                <div class="input-container">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    maxlength="50"
+                    required
+                  />
+                </div>
+              </li>
+              <li class="input-wrapper" data-form-input-container>
+                <div class="input-container">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    maxlength="500"
+                    required
+                  ></textarea>
+                </div>
+              </li>
+              <div
+                class="meter"
+                data-meter-curr="1"
+                data-meter-start="1"
+                data-meter-end="3"
+              >
+                <b class="meter-count" data-meter-count>1</b>
+                <div class="bar-container">
+                  <span class="bar" data-meter-bar></span>
+                </div>
+                <span class="meter-count">3</span>
+              </div>
+            </ol>
+          </form>
+          <button type="submit" class="arrow" data-form-forward>
+            <span class="arrow-head-left"></span>
+            <span class="arrow-head-right"></span>
+            <span class="arrow-main"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>Made with ❤️ <span data-copyright></span></div>
+      <script src="/scripts/copyright.js"></script>
+      <script src="/scripts/projects.json"></script>
+      <script src="/scripts/project.js"></script>
+      <script src="/scripts/type.js"></script>
+      <script src="/scripts/meter.js"></script>
+      <script src="/scripts/slider.js"></script>
+      <script src="/scripts/form.js"></script>
+    </footer>
+  </body>
+</html>

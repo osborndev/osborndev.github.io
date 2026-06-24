@@ -1,0 +1,100 @@
+#contact {
+  background-color: #000;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  column-gap: 100px;
+}
+
+.contact-links {
+  width: fit-content;
+}
+
+.contact-links ul {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  min-width: fit-content;
+  row-gap: 20px;
+  height: fit-content;
+  list-style: none;
+  margin: auto 0;
+}
+
+.contact-links .colored-btn {
+  width: 100%;
+}
+
+.contact-form-wrapper {
+  position: relative;
+  display: flex;
+  height: fit-content;
+  margin: auto;
+  margin-left: 0;
+  column-gap: 25px;
+}
+
+.contact-inputs {
+  position: relative;
+  list-style: none;
+  width: 35vw;
+  height: 120px;
+}
+
+.input-wrapper {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.input-wrapper.active {
+  display: block;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+
+.input-container > :is(input, textarea) {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  color: #fff;
+  background: none;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.input-container label {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1em;
+  top: -35px;
+  left: 0;
+}
+
+.input-container input {
+  font-size: 2em;
+}
+
+.input-container textarea {
+  resize: none;
+  font-size: 1em;
+}
+
+.contact-form-wrapper .meter {
+  position: absolute;
+  bottom: -35px;
+  right: 0;
+}

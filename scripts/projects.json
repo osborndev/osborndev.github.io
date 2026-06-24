@@ -1,0 +1,44 @@
+[
+  {
+    "title": "CUBECODE Compiler",
+    "date": { "day": 20, "month": 4, "year": 2026 },
+    "img": "cubecode.png",
+    "link": "https://github.com/og785838-hash"
+  },
+  {
+    "title": "ASCII Streaming",
+    "date": { "day": 3, "month": 6, "year": 2026 },
+    "img": "textart.png",
+    "link": "https://github.com/og785838-hash"
+  },
+  {
+    "title": "3D Graphics",
+    "date": { "day": 5, "month": 6, "year": 2026 },
+    "img": "3d.png",
+    "link": "https://github.com/og785838-hash"
+  },
+  {
+    "title": "Chatroom",
+    "date": { "day": 9, "month": 6, "year": 2026 },
+    "img": "chatroom.png",
+    "link": "https://github.com/og785838-hash"
+  },
+  {
+    "title": "REE6.DE",
+    "date": { "day": 29, "month": 7, "year": 2022 },
+    "img": "ree6.png",
+    "link": "https://ree6.de"
+  },
+  {
+    "title": "DaniDev Redesign",
+    "date": { "day": 13, "month": 2, "year": 2021 },
+    "img": "danidev.png",
+    "link": "https://danidev.netlify.app"
+  },
+  {
+    "title": "Dynamical Systems",
+    "date": { "day": 22, "month": 3, "year": 2025 },
+    "img": "dynamical.png",
+    "link": "https://dynamical-systems.netlify.app"
+  }
+]

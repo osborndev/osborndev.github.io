@@ -1,0 +1,84 @@
+#projects {
+  background-color: #000;
+  width: 100%;
+  padding-left: 100px;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 1600px;
+  height: fit-content;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  grid-auto-rows: min-content;
+  row-gap: 90px;
+  column-gap: 50px;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 400px;
+  height: 300px;
+  display: flex;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.35);
+  position: relative;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+
+.card-info {
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  column-gap: 25px;
+}
+
+.card-date {
+  height: fit-content;
+  font-size: 0.75em;
+  margin: auto 0;
+}
+
+.card-title {
+  font-weight: 600;
+  margin: auto;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 5px;
+  top: -45px;
+  left: 15px;
+  transition: 200ms ease-in-out;
+  filter: saturate(0);
+  pointer-events: none;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border-color: #fff;
+}
+
+.card:hover .card-img {
+  top: -65px;
+  filter: saturate(1);
+  left: 25px;
+  pointer-events: visible;
+}
